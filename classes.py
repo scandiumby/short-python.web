@@ -62,3 +62,5 @@ if __name__ == "__main__":
     instance4 = MyClass(-20)
 
     print(f"{MyClass2.my_static()=}")
+
+    print(f"{MyClass2.mro()=}")
